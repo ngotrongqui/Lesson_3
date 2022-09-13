@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 830px;
+    width: 1213px;
+    left: 223px;
+    top: 197px;
+    border-radius: 16px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1013px;
+    height: 128px;
+}
+
+p {
+    width: 91px;
+    height: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    
+}
+input {
+    width: 327px;
+    height: 64px;
+    margin-right: 152px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+}
+
+.new_users {
+    width: 115px;
+    height: 56px;
+    background: #849FFF;
+    border-radius: 8px;
+    margin-top: -14px;
+}
+
+.menu {
+    height: 56px;
+    width: 534px;
+    left: 479px;
+    top: 4px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+}
+
+a {
+    width: 121px;
+    height: 56px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.information {
+    height: 1200px;
+    width: 879px;
+    left: 100px;
+    top: 298px;
+    border-radius: 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.information img {
+    width: 97px;
+    height: 97px;
+    background: url(ava.jpg);
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.information_border {
+    height: 208px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+}
+.content {
+    height: 106px;
+    width: 125px;
+    left: 137px;
+    top: 24px;
+    border-radius: 0px;
+}
+
+.content p {
+    font-family: Merriweather;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.content span {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.content button {
+    margin-top: 16px;
+    margin-right: 4px;
+    width: 47px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    color: #516FD5;
+}
